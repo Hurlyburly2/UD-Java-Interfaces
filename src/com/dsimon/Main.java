@@ -7,7 +7,14 @@ public class Main {
         dougsPhone = new DeskPhone(1234567);
 
         dougsPhone.powerOn();
-        dougsPhone.callPhone(123131);
+        dougsPhone.callPhone(1234567);
         dougsPhone.answer();
+
+        dougsPhone = new MobilePhone(5478359);
+
+        dougsPhone.callPhone(5478359);
+        dougsPhone.answer();
+        dougsPhone.powerOn();
+        dougsPhone.callPhone(5478359);
     }
 }
